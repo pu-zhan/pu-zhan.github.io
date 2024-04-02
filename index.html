@@ -6,7 +6,15 @@
   <title>Document</title>
 </head>
 <body>
-  <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+  
+  <script>
+    let arr=['10','2','30','20']
+    arr.some((value) => {
+      if (value==='2') {
+        console.log('找到不一样的了');
+        return true
+      }
+    })
+  </script>
 </body>
 </html>
