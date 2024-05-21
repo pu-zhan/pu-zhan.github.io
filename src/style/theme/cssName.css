@@ -1,0 +1,9 @@
+/* 定义css变量 */
+:root{
+  /* 默认 */
+  --header-bgc-default:#fff;
+  /* 粉色主题 */
+  --header-bgc-pink:pink;
+  /* 黑色主题 */
+  --header-bgc-black: #000;
+}

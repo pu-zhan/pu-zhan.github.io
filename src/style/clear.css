@@ -49,6 +49,10 @@ img {
   list-style: none;
 }
 
+
+
+
+
 /* 左浮动 */
 .fl {
   float: left;
@@ -57,3 +61,9 @@ img {
 .fr {
   float: right;
 }
+.w{
+  width: 1240px;
+  margin: 0 auto;
+}
+
+

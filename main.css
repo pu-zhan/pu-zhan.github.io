@@ -1,0 +1,50 @@
+@import url(./src/style/index.css);
+body {
+  font-size: 14px;
+  background-color: #f2f2f2;
+}
+
+.page {
+  position: relative;
+}
+/* nav  头部布局 */
+header {
+  width: 100%;
+  position: fixed;
+  height: 60px;
+  line-height: 60px;
+  background-color: var(--header-bgc);
+  padding: 0 20px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  line-height: 60px;
+}
+.logo-img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  font-weight: 700;
+  cursor: pointer;
+}
+.logo-txt {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  font-weight: 700;
+}
+.nav {
+  display: inline-block;
+}
+
+main {
+  padding: 60px 0 0 0;
+  background-color: #fff;
+}

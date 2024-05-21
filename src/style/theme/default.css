@@ -1,0 +1,4 @@
+@import url(./cssName.css);
+:root{
+  --header-bgc:var(--header-bgc-default);
+}

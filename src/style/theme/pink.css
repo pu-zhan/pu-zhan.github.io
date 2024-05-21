@@ -1,0 +1,4 @@
+@import url(./cssName.css);
+:root body[theme-mode="pink"]{
+  --header-bgc:var(--header-bgc-pink);
+}

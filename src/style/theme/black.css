@@ -1,0 +1,4 @@
+@import url(./cssName.css);
+:root body[theme-mode="black"]{
+  --header-bgc:var(--header-bgc-black);
+}
