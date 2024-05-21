@@ -57,7 +57,7 @@ main {
   background-color: #f7fafc;
   height: 580px;
   line-height: 580px;
-  background: url('./src/static//image/2.jpg') no-repeat 100% 100% / cover;
+  background: url('./src/static/image/2.jpg') no-repeat 100% 100% / cover;
 }
 
 .introduce-one {
