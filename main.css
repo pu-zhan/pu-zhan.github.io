@@ -1,18 +1,18 @@
 @import url(./src/style/index.css);
 body {
   font-size: 14px;
-  background-color: #f2f2f2;
+  background-color: var(--body-bgc);
 }
 
 .page {
-  position: relative;
+  padding-top: 80px;
 }
 /* nav  头部布局 */
 header {
   width: 100%;
   position: fixed;
-  height: 60px;
-  line-height: 60px;
+  height: 80px;
+  line-height: 80px;
   background-color: var(--header-bgc);
   padding: 0 20px;
 }
@@ -20,7 +20,7 @@ header {
 .logo {
   width: 40px;
   height: 40px;
-  line-height: 60px;
+  line-height: 80px;
 }
 .logo-img {
   width: 100%;
@@ -45,6 +45,59 @@ header {
 }
 
 main {
-  padding: 60px 0 0 0;
   background-color: #fff;
+}
+
+.carousel {
+  font-size: 40px;
+  font-weight: 700;
+  color: #5eccf7;
+  text-align: center;
+  font-family: STKaiti;
+  background-color: #f7fafc;
+  height: 580px;
+  line-height: 580px;
+  background: url('./src/static//image/2.jpg') no-repeat 100% 100% / cover;
+}
+
+.introduce-one {
+  height: 280px;
+  padding: 40px;
+}
+.introduce-img{
+  width: 300px;
+  height: 200px;
+  background-color: violet;
+}
+.introduce-txt{
+  
+}
+
+/* 网格布局 */
+.grid {
+  width: 100%;
+  height: 596px;
+  display: grid;
+  grid-template-rows: minmax(80px, 100px) repeat(2, 1fr);
+  grid-template-columns: repeat(5), 1fr;
+  grid-template-areas:
+    'a a a a a'
+    'b e d d c '
+    'b f g h c';
+}
+.grid div:nth-child(1) {
+  grid-area: a;
+  background-color: aquamarine;
+}
+.grid div:nth-child(2) {
+  grid-area: b;
+  background-color: red;
+}
+.grid div:nth-child(3) {
+  grid-area: c;
+  background-color: yellowgreen;
+}
+.grid div:nth-child(4) {
+  grid-area: d;
+  background-color: yellow;
 }

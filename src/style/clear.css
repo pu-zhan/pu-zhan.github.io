@@ -66,4 +66,7 @@ img {
   margin: 0 auto;
 }
 
-
+/* 全局 css变量 */
+:root{
+  --body-bgc:#fff;
+}
